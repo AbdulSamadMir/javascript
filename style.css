@@ -1,0 +1,29 @@
+.heading{
+    text-align: center;
+}
+.btn {
+    align-content: center;
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: solid;
+    border-color: black;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 100px; /* Increase padding */
+}
+
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
