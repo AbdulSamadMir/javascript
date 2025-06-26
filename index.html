@@ -23,5 +23,32 @@
 </body>
 </html>
 
-<<<<<<< SEARCH
+    .terminal-header {
+        padding: 5px 10px;
+        background-color: var(--retro-border);
+        color: var(--light);
+        font-family: 'Press Start 2P', cursive;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .terminal-body {
+        padding: 10px;
+        font-family: 'VT323', monospace;
+        font-size: 1rem;
+        color: var(--primary);
+        height: 150px;
+        overflow-y: auto;
+    }
+    .terminal-close {
+        cursor: pointer;
+    }
     @media (max-width: 768px) {
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+        .project-card:hover .project-card-inner {
+            transform: none;
+        }
+    }
+</style>
